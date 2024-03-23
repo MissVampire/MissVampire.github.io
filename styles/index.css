@@ -20,7 +20,7 @@ h1{
     font-size: 30px;
 }
 ul.a{
-    font-size: 25px;
+    font-size: 3vw;
     font-family: 'cheri';
     list-style-type: "`";
     padding-left: 25px;
@@ -28,7 +28,7 @@ ul.a{
 ul.b{
     list-style-type: "- ";
     padding-left: 25px;
-    font-size: 20px;
+    font-size: 2.5vw;
 }
 p{
     color: white;
