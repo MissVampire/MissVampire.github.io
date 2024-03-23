@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/xxii-ultimate-black-metal');
+@import url('https://fonts.cdnfonts.com/css/dezzy');
+
+.sidenav {
+    background: linear-gradient(0deg, rgba(150, 147, 174, 1) 0%, rgba(0, 0, 0, 1) 50%);
+    box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.5);
+    font-family: 'Eight Track', sans-serif;
+    letter-spacing: 1px;
+}
+
+footer {
+    grid-template-areas:
+        "nav nav nav socials ."
+        ". . . link link";
+}
+
+main {
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(0deg, rgba(150, 147, 174, 0.75) 25%, rgba(0, 0, 0, 0.75) 50%);
+}
+
+hr {
+    height: 5%;
+    width: 100%;
+}
+
+
+
+.long h2 {
+    font-family: 'Starborn';
+    font-size: 5vw;
+}
+
+h2 {
+    font-family: 'Dezzy';
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+}
+
+.menu {
+    font-family: 'LT Chickenhawk';
+}
+
+main p {
+    color: white;
+    margin: 25px;
+    font-family: 'Delicious Handrawn';
+    font-size: 20px;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(218, 237, 252, 0.5) 25%, rgba(90, 12, 12, 1) 50%);
+}
+
+header {
+    background-color: #380607;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0);
+    align-items: center;
+}
+
+.title {
+    font-family: 'XXII Ultimate-Black-Metal';
+    font-size: 7vw;
+    align-self: last baseline;
+}
