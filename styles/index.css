@@ -1,0 +1,36 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+h1{
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.aboutme{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 12px;
+    padding: 15px;
+    color: white;
+    font-family: 'cheri liney';
+    font-size: 30px;
+}
+ul.a{
+    font-size: 25px;
+    font-family: 'cheri';
+    list-style-type: "`";
+    padding-left: 25px;
+}
+ul.b{
+    list-style-type: "- ";
+    padding-left: 25px;
+    font-size: 20px;
+}
+p{
+    color: white;
+    align-self: center;
+}
