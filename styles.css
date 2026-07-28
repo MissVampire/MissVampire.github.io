@@ -1,0 +1,145 @@
+:root{
+    --gradient-sky: linear-gradient(180deg, #5C5292 0%, #D5E5F8 76.44%);
+}
+
+html{
+    min-height: 100%;
+    height: fit-content;
+    background: var(--gradient-sky);
+    visibility: hidden;
+    font-family: Dongle;
+}
+
+.absolute {
+    position: relative;
+    min-height: 300vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+a, a img {
+    transition: 0.5s;
+}
+
+.fixed{
+    position: absolute;
+}
+
+.rocket, .rocket img{
+    top: 70vh;
+    right: 4.14vw;
+    width:23.4vw;
+    height:8.4vw;
+}
+
+.frontHill{
+    bottom: 0;
+    left: 0px;
+    width:61vw;
+    height:17vw;
+}
+
+.backHill{
+    bottom: 0;
+    right: 0px;
+    width:62vw;
+    height:10vw;
+}
+
+.globe{
+    width:50.3vw;
+    height:50.3vw;
+    top: 35vh;
+    right: 64.7vw;
+}
+
+.cloudl1{
+    width: 28.6vw;
+    height: 14.4vw;
+    right: 87.6vw;
+    top: 154vh;
+}
+
+.cloudl2{
+    width: 36.7vw;
+    height: 17.3vw;
+    right: 76.1vw;
+    top: 170vh;
+}
+
+.cloudl3{
+    width: 54vw;
+    height: 13vw;
+    right: 55.5vw;
+    top: 197vh;
+}
+
+.cloudl4{
+    width: 31.4vw;
+    height: 15.5vw;
+    right: 52.4vw;
+    top: 143vh;
+}
+
+.cloudl5{
+    width: 20.1vw;
+    height: 5vw;
+    right: 48.1vw;
+    top: 178.5vh;
+}
+
+.cloudR1{
+    width: 32.4vw;
+    height: 16vw;
+    left: 77.5vw;
+    top: 175vh;
+}
+
+.cloudR2{
+    width: 22.5vw;
+    height: 14.4vw;
+    left: 80.9vw;
+    top: 162.2vh;
+}
+
+.cloudR3{
+    width: 45.5vw;
+    height: 8.4vw;
+    left: 59.6vw;
+    top: 188.1vh;
+}
+
+.cloudR4{
+    width: 29.4vw;
+    height: 14.3vw;
+    left: 61.8vw;
+    top: 159.9vh;
+}
+
+.cloudR5{
+    width: 23.4vw;
+    height: 8.1vw;
+    left: 53.1vw;
+    top: 139.1vh;
+}
+
+.movingClouds{
+    width: 100vw;          /* cover the viewport width (or more) */
+    left: 0vw;
+
+    background-image: url('svg/clouds/Repeating_Clouds.svg');
+    background-repeat: repeat;
+    background-size: 62.3vw 62.3vw; /* size of one tile */
+    background-position: 0 center;
+
+    animation: driftClouds 30s linear infinite;
+}
+
+@keyframes driftClouds {
+    from { background-position: 0 0; }
+    to   { background-position: -62.3vw 0; } /* exactly one tile width */
+}
